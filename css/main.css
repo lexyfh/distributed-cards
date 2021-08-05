@@ -12,6 +12,9 @@ html {
 body h1 {
   font-family: "Denk One", sans-serif;
   color: #623b0c;
+}
+
+h1 {
   margin-top: 1rem;
 }
 
@@ -28,19 +31,27 @@ ol li {
   border-radius: 8px;
   background-color: #ede3db;
   padding: 1rem;
-  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
 }
 
 li a {
   text-decoration: none;
   color: #ede3db;
   background-color: #623b0c;
+  padding: .6em;
+  padding-right: 1rem;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-bottom: auto;
 }
 
 li p {
   font-family: Georgia, serif;
   color: #000;
-  padding: .6em;
+  padding: .6em 0;
 }
 
 ol {
@@ -51,11 +62,16 @@ ol {
 }
 
 body {
-  margin: 1rem;
+  margin: 0;
 }
 
 img {
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
+
+main {
+  margin: 1.5rem;
+  margin-top: .4rem;
 }
